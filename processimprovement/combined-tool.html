@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Combined Tool (SIP List, Order Comments, Daily Cancelled List)</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<nav class="top-nav">
+  <a href="index.html">Home</a>
+  <a href="resume.html">Resume</a>
+  <a href="engineering.html">Engineering Projects</a>
+  <a href="processimprovement.html">Process Improvement</a>
+  <a href="personalprojects.html">Personal Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<div class="container">
+
+<h1>Combined Tool (SIP List, Order Comments, Daily Cancelled List)</h1>
+
+<div class="card">
+  <h2>Background</h2>
+  <p>The Call Center uses three reports (SIP list, Order Comments, and Daily Cancelled list) generated up to three times a day. Staff spent ~15–40 minutes per report removing unnecessary data and formatting it into something usable.</p>
+</div>
+
+<div class="card">
+  <h2>Solution</h2>
+  <ul>
+    <li>Built an Excel + VBA tool to rename downloaded files using user-entered date/daypart/initials.</li>
+<li>SIP list: remove unnecessary columns, add a Comments column, alternate row fills by MRN, flag multiple accession numbers (red text), and apply conditional formatting to mark completed rows.</li>
+<li>Order Comments: alternate fills by MRN, flag multiple accession numbers (red text), and highlight UCC (Urgent Care) rows in a user-selected fill color.</li>
+<li>Daily Cancelled List: move SSN/DUPL/NRECOL rows to a second sheet, alternate fills by MRN, flag multiple accession numbers (red text), and highlight AUTO/PRECOL/MDNOT rows in user-selected colors.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Impact</h2>
+  <p>Reduced manual formatting time by up to ~9 hours on Mondays and ~3 hours per day Tuesday–Friday.</p>
+</div>
+
+
+<div class="figure-grid">
+<figure class="card">
+  <img src="../images/portfolio/c_t_2.png" alt="Sheet used to modify SIP List." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">Sheet used to modify SIP List.</figcaption>
+</figure>
+
+<figure class="card">
+  <img src="../images/portfolio/c_t_1.png" alt="Sheet used to modify Order Comments." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">Sheet used to modify Order Comments</figcaption>
+</figure>
+
+<figure class="card">
+  <img src="../images/portfolio/c_t_3.png" alt="Sheet used to modify Canclled List." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">Sheet used to modify Cancelled List.</figcaption>
+</figure>
+</div>
+<p><a href="../processimprovement.html">← Back to Process Improvement</a></p>
+
+</div>
+</body>
+</html>
