@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remote System for Mini Split AC Units</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<nav class="top-nav">
+  <a href="index.html">Home</a>
+  <a href="resume.html">Resume</a>
+  <a href="engineering.html">Engineering Projects</a>
+  <a href="processimprovement.html">Process Improvement</a>
+  <a href="personalprojects.html">Personal Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<div class="container">
+
+<h1>Remote System for Mini Split AC Units</h1>
+
+<div class="card">
+  <h2>Problem</h2>
+  <p>Five indoor evaporators share one condenser and must be set to similar climate settings. Adjusting each unit room-by-room with an IR remote is inconvenient, and the manufacturer's add-on modules were too costly for all five units.</p>
+</div>
+
+<div class="card">
+  <h2>Solution</h2>
+  <p>Built a centralized control system using a Raspberry Pi UI that sends commands to each room module. Each room module (ESP-8266 + DHT11 + IR transmitter) reports temperature/humidity back to the Raspberry Pi via MQTT and receives IR commands to control the evaporator.</p>
+</div>
+
+<div class="card">
+  <h2>Tools Used</h2>
+  <p><span class="badge">Raspberry Pi</span><span class="badge">Node-RED</span><span class="badge">MQTT</span><span class="badge">ESP-8266</span><span class="badge">DHT11 sensor</span><span class="badge">IR transmitter</span><span class="badge">AnalysIR</span></p>
+</div>
+
+<div class="card">
+  <h2>Highlights</h2>
+  <ul>
+    <li>Single interface to control multiple evaporators</li>
+<li>Room-by-room temp/humidity feedback to dashboard</li>
+<li>Reverse-engineered IR commands for compatibility</li>
+  </ul>
+</div>
+
+
+<div class="figure-grid">
+<figure class="card">
+  <img src="../images/portfolio/AC_1.jpg" alt="One of five evaporator unit." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">One of five mini split head unit.</figcaption>
+</figure>
+
+<figure class="card">
+  <img src="../images/portfolio/AC_2.jpg" alt="Manufactures remote for the evaporator unit." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">Manufactures remote for the evaporator unit.</figcaption>
+</figure>
+
+<figure class="card">
+  <img src="../images/portfolio/AC_7.jpg" alt="Remote Module used to send IR commands to the evaporator unit and collect temperature and humidity of room." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">Remote Module used to send IR commands to the evaporator unit and collect temperature and humidity of room.</figcaption>
+</figure>
+
+<figure class="card">
+  <img src="../images/portfolio/AC_10.jpg" alt="User interface hosted by the Raspberry PI." >
+  <figcaption style="margin-top:10px; color:#555; font-size:13px;">User interface hosted by the Raspberry PI.</figcaption>
+</figure>
+</div>
+<p><a href="../personalprojects.html">← Back to Personal Projects</a></p>
+
+</div>
+</body>
+</html>
