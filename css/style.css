@@ -59,25 +59,3 @@ figure.card img{display:block}
   color: #555;
   font-size: 13px;
 }
-/* ===========================
-   Mobile friendliness
-   =========================== */
-
-/* Make nav wrap and easier to tap */
-.top-nav{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.top-nav a{
-  padding: 10px 12px;
-  line-height: 1;
-}
-
-/* Slightly smaller nav text on phones */
-@media (max-width: 760px){
-  .top-nav a{
-    font-size: 14px;
-  }
-}
